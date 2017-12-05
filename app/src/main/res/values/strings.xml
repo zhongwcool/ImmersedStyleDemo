@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">沉浸式风格Demo</string>
     <string name="action_settings">Settings</string>
+    <string name="tips_top">顶层View背景沉浸</string>
+    <string name="title_activity_demo2">Demo2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tips_full">一直苦苦追寻的沉浸效果</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

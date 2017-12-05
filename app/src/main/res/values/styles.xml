@@ -9,6 +9,11 @@
     </style>
 
     <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Transparent" parent="AppTheme.NoActionBar">
         <item name="colorPrimary">@android:color/transparent</item>    <!-- 状态栏 -->
         <item name="colorPrimaryDark">@android:color/transparent</item> <!-- toolbar -->
         <item name="colorAccent">@color/colorAccent</item>  <!-- 重点 -->

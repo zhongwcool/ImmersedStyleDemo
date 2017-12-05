@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alex.demo.style.IndexActivity">
+
+    <TextView
+        android:id="@+id/demo1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_row_divider_light"
+        android:textColor="@color/colorAccent"
+        android:paddingStart="@dimen/text_padding"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="通过背景实现的玄幻式沉浸" />
+
+    <TextView
+        android:id="@+id/demo2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_row_divider_light"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:paddingStart="@dimen/text_padding"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="一直追寻的沉浸式效果" />
+</LinearLayout>

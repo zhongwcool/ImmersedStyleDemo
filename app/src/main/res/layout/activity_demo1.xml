@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_main"
     android:fitsSystemWindows="true"
-    tools:context="com.alex.demo.style.MainActivity">
+    tools:context="com.alex.demo.style.Demo1Activity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_demo1" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

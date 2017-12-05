@@ -1,5 +1,7 @@
 package com.alex.demo.style;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,7 +16,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class Demo1Activity extends AppCompatActivity {
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, Demo1Activity.class);
+        context.startActivity(intent);
+    }
 
     // Used to load the 'native-lib' library on application startup.
     static {
@@ -41,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             //window.setNavigationBarColor(Color.TRANSPARENT);
         }
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_demo1);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("测试");
         setSupportActionBar(toolbar);
@@ -50,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "功能开发中", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Demo1Activity.this, "功能开发中", Toast.LENGTH_SHORT).show();
             }
         });
 
